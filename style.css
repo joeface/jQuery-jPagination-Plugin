@@ -1,0 +1,16 @@
+.jpagination {border:1px solid #c0c0c0; float:left; background: #F4F5F2}
+.jpagination .active{font-weight:bold}
+.jpagination .hidden{display:none;}
+
+.jpagination div {float:left;}
+.jpagination a.block {text-decoration:none; font-size:17px; padding-right:19px; height:19px; float:left;}
+
+.jpagination .next, .jpagination .prev {width:38px; height:19px;}
+.jpagination .pager {padding:2px}
+.jpagination .pager a {margin:0px 6px; text-decoration:none; font-size:9pt; color:#555; display:block; width:15px; float:left; }
+
+
+.jpagination a.first-block {background: url(images/page-first.png);}
+.jpagination a.last-block {background: url(images/page-last.png);}
+.jpagination a.next-block {background: url(images/page-next.png);}
+.jpagination a.previous-block {background: url(images/page-previous.png); float:right;}
